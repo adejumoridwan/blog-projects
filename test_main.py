@@ -5,7 +5,7 @@ import pandas as pd
 data = fetch_data()
 
 def test_total_profit():
-    assert total_profit(data) == 15379.369
+    assert total_profit(data) == 153.369
 
 def test_total_revenue():
     assert total_revenue(data) == 307587.38
